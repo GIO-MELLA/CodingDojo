@@ -1,0 +1,32 @@
+.row
+{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 300%;
+    padding: 5px;
+}
+
+.col
+{
+    border: 1px solid rgb(38, 35, 70);
+    flex: 1;
+    background-color: rgb(44, 35, 128);
+}
+
+.col-2
+{
+    border: 1px solid rgb(0, 17, 248);
+    flex: 2;
+    background-color: rgb(12, 63, 158);
+}
+
+.col-3
+{
+    border: 1px solid rgb(8, 204, 253);
+    flex: 3;
+    background-color: rgb(89, 179, 252);
+}
+/*Giovanna Mella*/
