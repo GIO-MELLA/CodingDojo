@@ -1,0 +1,66 @@
+body
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div
+{
+	border: 1px solid white;
+	padding: 15px;
+}
+
+.mainContainer
+{
+	background-color: whitesmoke;
+}
+
+.divisor
+{
+    border-bottom: 3px solid #394C9C;
+	display: flex;
+}
+
+.titulo
+{
+ text-align: center;
+ color: #394C9C;
+ font-size: 50px;
+}
+
+.section1
+{
+	height: 300px;
+	background-color: white;
+	display: flex;
+	flex-direction: row; /*los deja en filas*/
+	justify-content: space-between ; 
+}
+
+.section2
+{
+	margin-top: 15px;
+	height: 300px;
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around ;
+}
+
+.section3
+{
+	margin-top: 15px;
+	height: 300px;
+	background-color: #99D9EA;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between ;
+}
+
+.ImagesFrom
+{
+	text-align: center;
+	color:#99D9EA;
+}
+
+/*Giovanna Mella*/
+
