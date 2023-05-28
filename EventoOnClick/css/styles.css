@@ -1,0 +1,135 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Verdana, Tahoma;
+}
+
+div
+{
+	border: 1px solid rgb(255, 255, 255);
+	padding: 10px;
+}
+
+.header
+{
+	border: 1px solid black;
+    background-color: #333333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title
+{
+    margin-left: 10px;
+}
+
+.header-links
+{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.btnLogin
+{
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: #0f75c9;
+    margin: 10px;
+    box-shadow: 5px 5px black;
+}
+
+.btnLikes
+{
+    width: 150px;
+    height: 40px;
+    color: black;
+    font-weight: bold;
+    background-color: #eed547;
+    margin: 10px;
+    box-shadow: 5px 5px black;
+}
+
+.btnDef
+{
+    width: 200px;
+    height: 40px;
+    color: black;
+    font-weight: bold;
+    background-color: #6ec46e;
+    margin: 10px;
+    box-shadow: 5px 5px black;
+}
+
+.mainContainer
+{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.section
+{
+	display: flex;
+	flex-direction: row;
+}
+
+
+/* MENÚ LADO IZQUIERDO*/
+
+.leftContent
+{
+	flex: 3;
+	display: flex;
+	flex-direction: column;
+}
+
+.whiteBox
+{
+    border: 2px solid rgb(145, 145, 145);
+    display: flex;
+    flex-direction: row;
+}
+
+.ninja1
+{
+    flex: 1;
+    text-align: center;
+}
+
+.ninja2
+{
+    flex: 2;
+}
+
+/*MENÚ LADO DERECHO*/
+
+.rightContent
+{
+	flex: 2;
+    height: auto;
+    width: 700px;
+}
+
+.whiteBox2
+{
+    border: 2px solid rgb(145, 145, 145);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cursi
+{
+    font-style: italic;
+}
+
+/*Giovanna Mella*/
