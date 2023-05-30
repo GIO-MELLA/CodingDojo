@@ -1,0 +1,134 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Verdana, Tahoma;
+}
+
+/*Archivo index I*/
+.whiteBox
+{
+    margin: 50px;
+    border: 1px solid rgb(5, 5, 5);
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.upSection
+{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px;
+
+}
+
+.downSection
+{
+    align-items: center;
+    margin: 0 30px;
+    padding-bottom: 20px;
+}
+
+.likes
+{
+    color: #332ba1;
+    font-weight: bold;
+}
+
+.btnLike
+{
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    background-color: #332ba1;
+    margin: 10px;
+    box-shadow: 5px 5px black;
+}
+
+/* Archivo Index II*/
+.header
+{
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+    margin: 0 150px;
+}
+
+.header-title
+{
+    margin-left: 50px;
+}
+
+.secondTitle
+{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0 150px;
+}
+
+.cuerpo
+{
+    display: flex;
+    flex-direction: row;
+    margin: 0 150px; 
+}
+
+.perfil
+{
+    margin: 10px 0;
+    border: 2px solid rgb(107, 201, 255);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+}
+
+.feed
+{
+    flex: 2;
+}
+
+.user
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid rgb(107, 201, 255);
+}
+
+.whiteBox2
+{
+    margin: 10px;
+    border: 2px solid rgb(5, 5, 5);
+    display: flex;
+    flex-direction: column;
+}
+
+.btnLike2
+{
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    background-color: #5179a7;
+    margin: 10px;
+    box-shadow: 5px 5px black;
+}
+
+/*Giovanna Mella*/
