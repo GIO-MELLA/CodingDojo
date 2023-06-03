@@ -1,0 +1,53 @@
+/* CSS reset */
+* 
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* Clase fixed-width container que se "autocentrará" a sí misma */
+.container 
+{
+   width: 1200px;
+   margin: 0 auto;
+}
+
+.btn
+{
+    color: white;
+    background-color: #2B78E4;
+    height: 30px;
+    width: 150px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.row
+{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 300%;
+    padding: 5px;
+}
+
+.col
+{
+    border: 1px solid rgb(38, 35, 70);
+    flex: 1;
+    background-color: rgb(44, 35, 128);
+}
+
+.navbar
+{
+	border: 1px solid black;
+    background-color: #333333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+/* Giovanna Mella */
