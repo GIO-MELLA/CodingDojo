@@ -1,10 +1,12 @@
 class CuentaBancaria:
 # atributo de clase
     nombre_banco = "Banco Dojo Nacional"
-    
+    cuentasBanco = []
+
     def __init__(self, tasa_int = 0.01 ,balance = 0.0):
         self.tasa_int = tasa_int
         self.balance = balance
+        CuentaBancaria.cuentasBanco.append(self)
 
     def deposito(self, monto):
         print(f"\n < ABONO + $ {monto} > {CuentaBancaria.nombre_banco}")
@@ -29,9 +31,9 @@ class CuentaBancaria:
         return self
     
     def mostrar_info_cuenta(self):
-        print("\n----------------------------------------")
+        print("\n------------------------------")
         print(f" Balance Final: $ {self.balance}")
-        print("----------------------------------------")
+        print("------------------------------")
 
         return self
 
@@ -48,6 +50,11 @@ class CuentaBancaria:
             print("¡No hay fondos suficientes para aplicar tasa de interés!")
         
         return self
+    
+    @classmethod
+    def print_todas_las_cuentas(cls):
+        for cuenta in cls.cuentasBanco:
+            cuenta.mostrar_info_cuenta()
 
 # Ejemplos
 guidoCB = CuentaBancaria(0.01, 0.0)
@@ -55,6 +62,10 @@ guidoCB.deposito(500).deposito(500).deposito(1000).retiro(1200).generar_interes(
 
 alejCB = CuentaBancaria(0.01, 0.0)
 alejCB.deposito(1000).deposito(1000).retiro(200).retiro(300).retiro(250).retiro(250).generar_interes().mostrar_info_cuenta()
+
+#Bonus
+print("\n   ---BONUS---   ")
+CuentaBancaria.print_todas_las_cuentas()
 
 # Giovanna Mella
 
